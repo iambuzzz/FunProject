@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    z-index: -1;
+    
+}
+#contact{
+    color: #fff;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url(images/baa.jpg);
+    position: absolute;
+    background-size:cover;
+    background-position: center center;
+    
+}
+.form-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0, 0, 0, 0.352);
+    width: 500px;
+    padding: 50px 30px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 50px rgb(75, 75, 75);
+}
+#c{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.control input{
+    background-color:rgba(134, 127, 127, 0.305)!important;
+    border: 1px solid rgba(255, 255, 255, 0.277);
+    width: 100%;
+    display: block;
+    padding: 10px;
+    font-weight: 800;
+    color: #fff;
+    /* border: none; */
+    outline: none;
+    margin: 1em 0;
+    /* opacity: 0.4; */
+
+}
+#but{
+    opacity: 0.8;
+    margin-top: 2em;
+    background-color: rgb(255, 68, 0);
+    transition: scale, opacity 0.3s ease;
+    
+}
+#button{
+    opacity: 0.8;
+    margin-top: 2em;
+    background-color: rgb(255, 0, 0);
+    transition: scale, opacity 0.3s ease;
+    
+}
+#button:hover{
+    scale: 1.02;
+    opacity: 1;
+}
+#up{
+    height: 100%;
+    width: 100%;
+}
+#navbar{
+    width: 100%;
+    
+
+    position: fixed;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.352) !important;
+
+}
+.myimg{
+    /* border-radius: 50px; */
+    margin-left: 5%;
+    width: 90%;
+    height: 300px!important;
+    /* opacity: 0.7; */
+}
+#aboutus{
+    /* color: #fff; */
+    margin-top: 30px;
+    
+}
+
+@media screen and (max-width: 765px) {
+    #iam{
+        padding-top: 30px;
+        padding-left: 50px!important;
+        padding-right: 50px!important;
+    
+    }
+  }
+  
+h6{
+    padding-right: 20px;
+}

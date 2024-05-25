@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-color: gray;
+    cursor: url("icons8-cursor-100.png"), auto ;
+    /* background-image: url(venti-views-G16PnHWOMRQ-unsplash.jpg); */
+    
+
+}
+.face{
+    width: 80%;
+    max-width: 450px;
+    aspect-ratio: 1/1;
+    background-color: rgb(255, 213, 0);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    outline: 13px solid rgb(255, 166, 0);
+    border: 13px solid rgba(255, 187, 0, 0.926);
+    box-shadow: 1px 1px 1rem black;
+
+}
+.eyes{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftEye , .rightEye{
+    width: 45%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    overflow: hidden;
+    box-shadow: 1px 1px 1rem gray;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.leftpupil, .rightpupil{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+}
+.mouth{
+    width: 200px;
+    height: 80px;
+    background: radial-gradient(rgb(234, 181, 83), rgb(174, 135, 27));
+    border-radius: 7px 7px 100px 100px;
+    border: 2px solid rgb(175, 123, 4);
+    margin-bottom: 90px;
+    
+}

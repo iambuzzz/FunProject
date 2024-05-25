@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+html,body{
+    width: 100%;
+    height: 88%;
+    background-color:whitesmoke;
+}
+.glow {
+    color: #0099ff;
+    -webkit-animation: glow 1.5s ease-in-out infinite alternate;
+    -moz-animation: glow 1.5s ease-in-out infinite alternate;
+    animation: glow 1.5s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px , 0 0 40px , 0 0 50px #0099ff, 0 0 60px #0099ff, 0 0 70px #0099ff;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 8px #54a3f7, 0 0 15px #82c6f4, 0 0 20px #979fe5, 0 0 25px #62b2f4, 0 0 25px #00c8ff, 0 0 30px #5ab3ef;
+    }
+  }
+#head{
+    /* background-color: antiquewhite; */
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1%;
+    align-items: center;
+}
+h1{
+    color: #0099ff;
+    margin-bottom: 0%;
+    font-size: 50px;
+}
+h2{
+    color: #0099ff;
+    font-size: 25px;
+    margin-bottom: 1%;
+}
+#O{
+    width: 20px;
+    height: 20px;
+}
+#startbut{
+    background-color: rgb(34, 164, 240);
+    border: none;
+    box-shadow: 8px 8px 10px rgba(9, 10, 10, 0.555), 0px 0px 20px rgb(58, 129, 251);
+
+    text-shadow: 0px 0px 5px #fff;
+    color: #fff;
+    font-size: 20px;
+    width: 130px;
+    height: 50px;
+    border-radius: 40px;
+    margin-bottom: 1%;
+}
+.game-board
+{
+	width: 40%;
+	height: 90%;
+    margin-left: 30%;
+    margin-right: 30%;
+	margin-top: 0.5%;
+    margin-bottom: 7.5%;
+    background-color: rgb(25, 155, 231);
+    color: #fff;
+    /* border: 6px solid rgb(25, 155, 231); */
+    border-radius: 10px;
+	box-shadow: 0px 0px 50px rgb(25, 149, 231);
+	display: grid;
+	grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.box
+{  
+  border-radius: 0px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#b1{
+  border-bottom: 5px solid rgb(255, 255, 255);
+  border-right: 5px solid rgb(255, 255, 255);
+}
+#b2{
+    border-bottom: 5px solid rgb(255, 255, 255);
+    border-right: 5px solid rgb(255, 255, 255);
+  }
+#b3{
+    border-bottom: 5px solid rgb(255, 255, 255);
+}
+#b4{
+    border-bottom: 5px solid rgb(255, 255, 255);
+    border-right: 5px solid rgb(255, 255, 255);
+  }
+  #b5{
+    border-bottom: 5px solid rgb(255, 255, 255);
+    border-right: 5px solid rgb(255, 255, 255);
+  }
+  #b6{
+    border-bottom: 5px solid rgb(255, 255, 255);
+}
+#b7{
+    border-right: 5px solid rgb(255, 255, 255);
+  }
+  #b8{
+    border-right: 5px solid rgb(255, 255, 255);
+  }
+ 
