@@ -7,8 +7,6 @@ COPY . /var/www/html/
 
 # --- IMPORTANT FOR YOUR CONTACT FORM ---
 # Your 'userinfo.php' file will likely need a database.
-# If you use MySQL, uncomment the line below (remove the #)
-RUN docker-php-ext-install pdo pdo_mysql
 
 # If you use PostgreSQL, uncomment the line below (remove the #)
-# RUN docker-php-ext-install pdo pdo_pgsql
+RUN docker-php-ext-install pdo pdo_pgsql
