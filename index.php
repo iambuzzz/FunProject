@@ -36,7 +36,6 @@
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
 
     </div>
     <div class="carousel-inner">
@@ -60,14 +59,6 @@
         <div class="carousel-caption d-none d-md-block">
             <h5>Random Color Picker</h5>
             <p>Find Random RGB colors.</p>
-        </div>
-        </div>
-        
-        <div class="carousel-item">
-        <a href="todo/todo.php" target="_blank"><img src="images/list.jpg" class="d-block w-100 " alt="..." style="height:100vh" id="imgg" ></a>
-        <div class="carousel-caption d-none d-md-block">
-            <h5>To-Do List</h5>
-            <p>Make Your Daily Todo List.</p>
         </div>
         </div>
         <div class="carousel-item">
@@ -145,4 +136,5 @@
 
 </section>
 </body>
+
 </html>
