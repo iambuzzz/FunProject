@@ -110,7 +110,7 @@
             <h1 id="c">
                 Contact Us
             </h1>
-            <form action="userinfo.php" method="post">
+            <form action="https://formsubmit.co/ambujjais1@gmail.com" method="POST">
                 <div class="control">
                     <label for="name">Name</label>
                     <input type="text" name="name" id="name" autocomplete="off">
