@@ -25,7 +25,7 @@ try {
 
     // 5. PREPARE AND EXECUTE THE QUERY
     // This uses "prepared statements" which prevents SQL injection attacks
-    $sql = "INSERT INTO userdatainfo (user, email, mobile, comment) VALUES (?, ?, ?, ?)";
+    $sql = "INSERT INTO userdatainfo (\"user\", email, mobile, comment) VALUES (?, ?, ?, ?)";
     $stmt = $pdo->prepare($sql);
     
     // The execute call safely inserts your variables
