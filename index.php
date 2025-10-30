@@ -129,7 +129,7 @@
 
     <div class="control">
         <label for="comment">Comment</label>
-        <textarea name="comment" id="comment" autocomplete="off"></textarea>
+        <input type="text" name="comment" id="comment" autocomplete="off">
     </div>
 
     <div class="control" id="button">
@@ -143,6 +143,7 @@
 </body>
 
 </html>
+
 
 
 
