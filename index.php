@@ -111,27 +111,31 @@
                 Contact Us
             </h1>
             <form action="https://formspree.io/f/xgvpznqr" method="POST">
-              <input type="hidden" name="_next" value="https://funplace.onrender.com/index.php?submitted=true">
-                <div class="control">
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name" autocomplete="off">
-                </div>
-                <div class="control">
-                    <label for="email">Email</label>
-                    <input type="text" name="email" id="email" autocomplete="off">
-                </div>
-                <div class="control">
-                    <label for="mobile">Mobile</label>
-                    <input type="text" name="mobile" id="mobile" autocomplete="off">
-                </div>
-                <div class="control">
-                    <label for="comment">Comment</label>
-                    <input type="textarea" name="comment" id="comment" autocomplete="off">
-                </div>
-                <div class="control" id="button">
-                    <input type="submit" value="Submit" autocomplete="off">
-                </div>
-            </form>
+    
+    <input type="hidden" name="_next" value="https://funplace.onrender.com/index.php?submitted=true">
+
+    <div class="control">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" autocomplete="off">
+    </div>
+    <div class="control">
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" autocomplete="off">
+    </div>
+    <div class="control">
+        <label for="mobile">Mobile</label>
+        <input type="text" name="mobile" id="mobile" autocomplete="off">
+    </div>
+
+    <div class="control">
+        <label for="comment">Comment</label>
+        <textarea name="comment" id="comment" autocomplete="off"></textarea>
+    </div>
+
+    <div class="control" id="button">
+        <input type="submit" value="Submit" autocomplete="off">
+    </div>
+</form>
         </div>
     </section>
 
@@ -139,6 +143,7 @@
 </body>
 
 </html>
+
 
 
 
