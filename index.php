@@ -111,6 +111,7 @@
                 Contact Us
             </h1>
             <form action="https://formspree.io/f/xgvpznqr" method="POST">
+              <input type="hidden" name="_next" value="https://funplace.onrender.com/index.php?submitted=true">
                 <div class="control">
                     <label for="name">Name</label>
                     <input type="text" name="name" id="name" autocomplete="off">
@@ -138,6 +139,7 @@
 </body>
 
 </html>
+
 
 
 
