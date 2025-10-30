@@ -110,7 +110,7 @@
             <h1 id="c">
                 Contact Us
             </h1>
-            <form action="https://formsto.email/email/ambujjais1@gmail.com" method="POST">
+            <form action="https://formspree.io/f/mqkvgprp" method="POST">
                 <div class="control">
                     <label for="name">Name</label>
                     <input type="text" name="name" id="name" autocomplete="off">
@@ -125,7 +125,7 @@
                 </div>
                 <div class="control">
                     <label for="comment">Comment</label>
-                    <textarea type="text" name="comment" id="comment" class="form-control"></textarea>
+                    <input type="textarea" name="comment" id="comment" autocomplete="off">
                 </div>
                 <div class="control" id="button">
                     <input type="submit" value="Submit" autocomplete="off">
@@ -138,5 +138,6 @@
 </body>
 
 </html>
+
 
 
