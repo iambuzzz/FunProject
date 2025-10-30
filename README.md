@@ -43,7 +43,7 @@ This project includes several mini-applications:
 * **Random Color Picker:** A tool to generate random RGB colors.
 * **Tic Tac Toe:** The classic 2-player game.
 * **About Us Page:** A static page describing the developer.
-* **Contact Form:** A functional contact form that securely submits user data to a database.
+* **Contact Form:** A functional contact form that sends user messages directly to an email inbox using Formspree.
 * **Fully Responsive:** Built with Bootstrap 5 to look great on all devices.
 
 ---
@@ -52,8 +52,8 @@ This project includes several mini-applications:
 
 * **Front-End:** HTML5, CSS3, JavaScript
 * **Framework:** Bootstrap 5
-* **Back-End:** PHP
-* **Database:** PostgreSQL (for the contact form)
+* **Back-End:** PHP (for serving pages)
+* **Form Handling:** [Formspree](https://formspree.io/)
 * **Deployment:** Docker & [Render](https://render.com)
 
 ---
@@ -62,9 +62,8 @@ This project includes several mini-applications:
 
 This project is deployed on Render as a **Web Service** using a **Docker** environment.
 
-* The `Dockerfile` configures a `php:8.2-apache` image.
-* It installs the `pdo_pgsql` PHP extension to allow PHP to communicate with the PostgreSQL database.
-* The application is connected to a free-tier PostgreSQL database also hosted on Render.
-* Database credentials (host, user, password, name) are stored securely as **Environment Variables** on Render and are accessed by `userinfo.php`.
+* The `Dockerfile` configures a simple `php:8.2-apache` image to serve the static and PHP files.
+* The contact form is handled by **Formspree**, which forwards submissions directly to an email address, eliminating the need for a database.
 
 ---
+
